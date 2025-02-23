@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.main{
+  background-color: bisque;
+}
+
+.main .parent{
+  background-color: white;
+}
+
+
+.parent{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 100%;
+  padding: 10px;
+ 
+ 
+}
+
+h2{
+  display: flex;
+  padding: 0 25px 3px;
+  font-size: 28px;
+  
+} 
+
+.pat{
+   padding: 0 25px 5px;
+   font-size: smaller;
+}
+
+.time{
+  background-color: rgba(255, 192, 203, 0.186);
+  padding: 30px 10px 20px 29px;
+  margin: 10px 25px 5px 25px;
+  line-height: 30px;
+  border-radius: 15px;
+
+}
+
+.time h4{
+  color: purple;
+  font-weight: 900;
+}
+
+.time li::marker {
+  color: purple;
+  font-weight: 900;
+}
+
+
+.ingredients{
+  padding: 30px 10px 20px 29px;
+  margin: 10px 25px 5px 25px;
+  line-height:25px;
+}
+
+.ingredients h4{
+  color:#8b4513;
+  font-size: 25px;
+  padding: 0 0 10px;
+}
+
+hr{
+  margin: 0 30px 0 30px;
+}
+.instruct{
+    padding: 10px 10px 20px 29px;
+  margin: 10px 25px 5px 25px;
+  line-height:24px;
+}
+
+.instruct h4{
+   color: #8b4513;
+  font-size: 25px;
+  padding: 0 0 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 10px 20px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container h2{
+  color: #8b4513;
+  
+  
+}
+
+table{
+  width: 100%;
+  margin-top: 5px;
+}
+
+th, td {
+  text-align: left;
+  padding: 5px 30px 0 ;
+  line-height: 50px;
+}
+
+.org {
+  color: #b65007;
+  font-weight: 900;
+  font-size: 22px;
+}
+.container p{
+  margin-top: 15px;
+  padding-left: 21px;
+}
+
+
+li::marker {
+  color: #8b4513;
+  font-weight: 900;
+}
+
+th, td {
+  border-bottom: 1px solid black;
+  color: black;
+}
